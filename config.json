@@ -1,0 +1,82 @@
+{
+  "SMTP_SERVER": "104.47.55.138",
+  "SMTP_PORT": 25,
+  "SENDER_USERNAME": "tntengin",
+  "SENDER_PASSWORD": "f0x@zdsFoXhsu#x",
+  "ENABLE_NON_OFFICE_SMTP_AUTH": false,
+  
+  "ENABLE_PROXY": true,
+  "PROXY_PROTOCOL": "socks5",
+  "PROXY_HOST": "169.239.205.61",
+  "PROXY_PORT": 30494,
+  "PROXY_USERNAME": "paulmikare3055",
+  "PROXY_PASSWORD": "fWp0MHJnw3",
+  
+  "ENABLE_OFFICE_SMTP": false,
+  "OFFICE_SMTP_SERVER": "smtp.office365.com",
+  "OFFICE_SMTP_PORT": 587,
+  "OFFICE_SMTP_USERNAME": "info@chirobenoitlambert.ca",
+  "OFFICE_SMTP_PASSWORD": "Kosotogake#4",
+  "ENABLE_SMTP_AUTH": false,
+  
+  "USE_RECIPIENT_MX": false,
+  
+  "ENABLE_RECIPIENT_AS_SENDER": false,
+  
+  "ENABLE_FAKE_NAMES": false,
+  
+  "MAX_CONNECTIONS": 50,
+  "NUM_THREADS": 100,
+  
+  "HIGHEST_PRIORITY": false,
+  
+  "ENABLE_TLS": true,
+  "ENABLE_SSL": false,
+  
+  "MAX_RETRIES": 10000000000,
+  "RETRY_DELAY": 0,
+  "ENABLE_TEST_INTERVAL": true,
+  "TEST_INTERVAL": 1000,
+  
+  "ENABLE_REPLY_TO": true,
+  "REPLY_TO_EMAIL": "{{Fake_Company_email}}",
+  
+  "ENABLE_CC": false,
+  "CC_RECIPIENTS": ["{{Fake_Company_emailandfullname}}"],
+  
+  "ENABLE_TEST_EMAILS": false,
+  "TEST_EMAIL_ADDRESS": "admin@spirittrucklines.com",
+  "NUM_EMAILS_FOR_TEST": 1,
+  "TEST_EMAIL_SUBJECT": "Email Test~",
+  "TEST_EMAIL_MESSAGE": "The information contained in this message may be privileged, confidential and protected from disclosure. If the reader of this message is not the intended recipient, or an employee or agent responsible for delivering this message to the intended recipient, you are hereby notified that any dissemination, distribution or copying of this communication is strictly prohibited. If you have received this communication in error, please notify your representative immediately and delete this message from your computer. Thank you.",
+  
+  "SENDER_EMAIL_FILE": "sender_emails.txt",
+  "SENDER_NAME_FILE": "sender_names.txt",
+  "SENT_EMAILS_FILE": "successful_sent_emails.txt",
+  "FAILED_EMAILS_FILE": "failed_emails.txt",
+  "RECIPIENT_LIST_FILE": "recipient_list.txt",
+  
+  "ENABLE_CID_IMAGE": true,
+  "HTML_IMAGE_TEMPLATE": "htmltoimage.html",
+  "IMAGE_CID": "g",
+  
+  "ENABLE_ATTACHMENT": false,
+  "ATTACHMENT_FILE": "attachment.html",
+  "ATTACHMENT_FILENAME": "{{Recipient_name}}%40{{Recipient_domain}}.html",
+  "ENABLE_ENCRYPTION": false,
+  
+  "ENABLE_HTML_TO_PDF": false,
+  "HTML_TO_PDF_FILE": "htmltopdf.html",
+  "PDF_FILENAME_PREFIX": "{{Recipient_name}}%40{{Recipient_domain}}-",
+  
+  "ENABLE_EML": true,
+  "EML_FILE": "eml.html",
+  "EML_FILENAME": "Recovery:{{Recipient_domain}}",
+  
+  "LICENSE_KEY": "Private",
+  "MACHINE_IP": "95.217.115.160",
+  
+  "ENCODING_TYPE": "utf-8",
+  "CHARSET": "utf-8",
+  "TIME_ZONE": "America/New_York"
+}

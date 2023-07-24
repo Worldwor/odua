@@ -1,0 +1,11 @@
+PySocks
+requests
+pdfkit
+dnspython
+xvfbwrapper
+art
+pyfiglet
+pytz
+weasyprint
+imgkit
+faker
